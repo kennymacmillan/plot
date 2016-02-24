@@ -1,2 +1,1 @@
-set up editorconfig
 set up linting
