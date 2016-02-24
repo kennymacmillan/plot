@@ -1,2 +1,3 @@
 create git repository
+push to github
 serve something with express
