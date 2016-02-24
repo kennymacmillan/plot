@@ -1,3 +1,2 @@
-set npm description and repository
 set up editorconfig
 set up linting
