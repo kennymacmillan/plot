@@ -1,3 +1,2 @@
-create git repository
-push to github
+set up private key push to github
 serve something with express
