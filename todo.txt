@@ -1,1 +1,3 @@
-serve something with express
+set npm description and repository
+set up editorconfig
+set up linting
