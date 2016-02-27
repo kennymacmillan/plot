@@ -1,1 +1,5 @@
+get webpack going
+transpile to es5
+webpack dev server
+source maps
 set up linting
