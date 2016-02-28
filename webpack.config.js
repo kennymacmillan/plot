@@ -1,4 +1,5 @@
 var path = require('path');
+var webpack = require('webpack');
 
 module.exports = {
   entry: './client',
@@ -25,5 +26,8 @@ module.exports = {
         loaders: ['babel-loader']
       }
     ]
-  }
+  },
+  plugins: [
+    new webpack.NoErrorsPlugin()
+  ]
 };
