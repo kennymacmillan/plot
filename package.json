@@ -2,8 +2,9 @@
   "name": "plot3",
   "version": "0.3.0",
   "description": "Plot",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
+    "start": "node .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -22,6 +23,7 @@
     "babel-loader": "^6.2.4",
     "babel-preset-es2015": "^6.5.0",
     "babel-preset-react": "^6.5.0",
+    "babel-register": "^6.5.2",
     "eslint": "^2.2.0",
     "eslint-config-airbnb": "^6.0.2",
     "eslint-loader": "^1.3.0",
