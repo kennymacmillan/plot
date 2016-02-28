@@ -1,1 +1,3 @@
-document.write(require('content.js'));
+import content from 'content';
+
+document.write(content);

@@ -1,1 +1,3 @@
-module.exports = 'this is the content';
+const content = 'this is the content';
+
+export default content;

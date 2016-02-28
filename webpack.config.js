@@ -7,7 +7,16 @@ module.exports = {
     filename: 'bundle.js'
   },
   resolve: {
-    modulesDirectories: ['node_modules', 'shared'],
+    modulesDirectories: ['shared', 'node_modules'],
     extensions: ['', '.js', '.jsx']
+  },
+  module: {
+    loaders: [
+      {
+        test: /\.jsx?$/,
+        exclude: /node_modules/,
+        loader: 'babel-loader'
+      }
+    ]
   }
-}
+};
