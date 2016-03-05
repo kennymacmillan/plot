@@ -4,8 +4,13 @@
   "description": "Plot",
   "main": "index.js",
   "scripts": {
+    "env": "env",
+    "clean": "rm -rf dist",
+    "server-lint": "eslint --ext .js,.jsx src/server src/shared",
+    "server-compile": "babel src/server -o dist/server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "./node_modules/.bin/babel server.jsx -o dist/server.js",
+    "server-build": "npm run server-lint && npm run server-compile",
+    "build": "npm run server-build && webpack",
     "start": "node dist/server.js"
   },
   "keywords": [],
