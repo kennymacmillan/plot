@@ -1,3 +1,5 @@
+eslint on build
 webpack dev server
 source maps
 unit tests
+run tests on watch?
