@@ -1,5 +1,5 @@
-fail build on eslint violations
 remove console.log/debug from client javascript in production mode
+investigate noerrors webpack plugin + eslint https://github.com/MoOx/eslint-loader#noerrorsplugin
 ability to require /shared from server
 webpack dev server
 source maps
