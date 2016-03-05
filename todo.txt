@@ -1,4 +1,3 @@
-separate eslint config for client/server
 fail build on eslint violations
 remove console.log/debug from client javascript in production mode
 ability to require /shared from server

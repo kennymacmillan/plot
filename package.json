@@ -6,7 +6,7 @@
   "scripts": {
     "env": "env",
     "clean": "rm -rf dist",
-    "server-lint": "eslint --ext .js,.jsx src/server src/shared",
+    "server-lint": "eslint --ext .js,.jsx -c .eslintrc.server.json src/server src/shared",
     "server-compile": "babel src/server -o dist/server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "server-build": "npm run server-lint && npm run server-compile",
