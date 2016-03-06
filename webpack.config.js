@@ -9,19 +9,19 @@ module.exports = {
   },
   resolve: {
     modulesDirectories: ['shared', 'node_modules'],
-    extensions: ['', '.js', '.jsx']
+    extensions: ['', '.js']
   },
   module: {
     preLoaders: [
       {
-        test: /\.jsx?/,
+        test: /\.js$/,
         exclude: /node_modules/,
         loaders: ['eslint-loader']
       }
     ],
     loaders: [
       {
-        test: /\.jsx?$/,
+        test: /\.js$/,
         exclude: /node_modules/,
         loaders: ['babel-loader']
       }

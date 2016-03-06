@@ -7,7 +7,7 @@
     "env": "env",
     "clean": "rm -rf dist/*",
     "test": "mocha --recursive --compilers js:babel-register",
-    "server-lint": "eslint --ext .js,.jsx --max-warnings 0 src/server src/shared test",
+    "server-lint": "eslint --ext .js --max-warnings 0 src/server src/shared test",
     "server-compile": "babel src/server -d dist/server && babel src/shared -d dist/shared",
     "server-build": "npm run server-lint && npm run server-compile",
     "build": "npm run server-build && webpack",
