@@ -1,5 +1,3 @@
-investigate noerrors webpack plugin + eslint https://github.com/MoOx/eslint-loader#noerrorsplugin
-ability to require /shared from server
 webpack dev server
 source maps
 unit tests
