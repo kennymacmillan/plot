@@ -1,5 +1,4 @@
-import {expect} from 'chai';
-import content from '../../src/shared/content';
+import { expect } from 'chai';
 
 describe('test', () => {
   it('passes', () => {

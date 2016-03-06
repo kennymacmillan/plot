@@ -31,7 +31,6 @@ module.exports = {
     new webpack.NoErrorsPlugin()
   ],
   eslint: {
-    configFile: '.eslintrc.client.json',
     failOnWarning: true,
     failOnError: true
   }

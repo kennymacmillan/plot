@@ -1,5 +1,12 @@
 {
+  "root": true,
   "extends": "airbnb",
+  "env": {
+    /* airbnb config enables these by default,
+     * disable and re-enable as needed in subdirectories */
+    "node": false,
+    "browser": false
+  },
   "rules": {
     "no-console": 0
   }
