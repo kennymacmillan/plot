@@ -6,9 +6,9 @@
   "scripts": {
     "env": "env",
     "clean": "rm -rf dist/*",
+    "test": "mocha --recursive --compilers js:babel-register",
     "server-lint": "eslint --ext .js,.jsx -c .eslintrc.server.json --max-warnings 0 src/server src/shared",
     "server-compile": "babel src/server -d dist/server && babel src/shared -d dist/shared",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "server-build": "npm run server-lint && npm run server-compile",
     "build": "npm run server-build && webpack",
     "start": "node dist/server.js"
@@ -30,10 +30,12 @@
     "babel-loader": "^6.2.4",
     "babel-preset-es2015": "^6.5.0",
     "babel-preset-react": "^6.5.0",
+    "chai": "^3.5.0",
     "eslint": "^2.2.0",
     "eslint-config-airbnb": "^6.0.2",
     "eslint-loader": "^1.3.0",
     "eslint-plugin-react": "^4.1.0",
+    "mocha": "^2.4.5",
     "webpack": "^1.12.14"
   }
 }
