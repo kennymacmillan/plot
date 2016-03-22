@@ -1,3 +1,6 @@
+fix deprecation warnings https://github.com/reactjs/react-router/blob/master/upgrade-guides/v2.0.0.md#using-history-with-router
+immutablejs proptypes
+use prehooks on npm scripts
 webpack dev server
 source maps
 run tests on watch?
